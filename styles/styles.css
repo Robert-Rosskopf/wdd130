@@ -13,14 +13,44 @@ h1 {
     color: darkblue;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+main {
+    width: 900px;
+
+    img {
+        width: 150px;
+        height: auto;
+        border: 1px solid black;
+        padding: 2px;
+        box-shadow: 0 0 30px gray;
+    }
 }
 
 p {
     padding: 10px;
+}
+
+aside {
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    background-color: #DDEEDD;
+    color: #123456;
+    height: auto;
+
+    p {
+        padding: 0;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+footer {
+    margin-top: 5;
+    border-top: 2px solid;
+    border-color: #999999;
+    text-align: center;
 }
