@@ -1,0 +1,101 @@
+/* CSS file for wwr */
+:root {
+    --primary-color: #000;
+    --secondary-color: #de493c;
+    --accent4-color: #608074;
+    --accent3-color: #806074;
+    --accent1-color: #506490;
+    --accent2-color: d#daefd9;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--accent2-color);
+}
+
+header {
+    --background-color: var(--accent1-color);
+    color: var(--primary-color);
+
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 96%;
+    /* padding: 16px; */
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+nav,
+p,
+section,
+article {
+    /* margin: 16px; */
+    padding: 8px;
+}
+
+.hero article {
+    position: absolute;
+    background-color: #608074;
+    color: #fff;
+    top: 380px;
+    left: 340px;
+    height: 100px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 96%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+.hero h4 {
+    width: 96%;
+    top: 56px;
+    position: absolute;
+    background-color: var(--accent1-color);
+    color: #fff;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    font-size: x-large;
+    padding: 12px;
+}
