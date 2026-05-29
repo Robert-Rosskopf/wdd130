@@ -84,7 +84,13 @@ article {
     width: 125px;
 }
 
-.hero h4 {
+.socialmedia a {
+    text-decoration: none;
+    font-size: x-large;
+    padding: 12px;
+}
+
+.subtitle {
     width: 96%;
     top: 56px;
     position: absolute;
@@ -92,10 +98,4 @@ article {
     color: #fff;
     text-align: center;
     opacity: 0.7;
-}
-
-.socialmedia a {
-    text-decoration: none;
-    font-size: x-large;
-    padding: 12px;
 }
