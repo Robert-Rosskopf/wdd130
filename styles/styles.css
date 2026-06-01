@@ -2,26 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+.finlandica-text-normal {
+    font-family: "Finlandica Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Finlandica Text";
+    src: url(Finlandica.woff2) format('woff2');
+}
+
+body {
+    font-family: "Finlandica Text", sans-serif;
+    font-size: 16px;
+}
+
+header,
+.grid,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: darkblue;
     padding: 10px;
+
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    height: auto;
+
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    color: white;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+nav a img {
+    height: 30px;
 }
 
 h1 {
     color: darkblue;
+    padding: 2rem;
+    border-bottom: solid;
+    margin-bottom: 1rem;
+
 }
 
 main {
-    width: 900px;
+
+    grid-column: 2/3;
+    margin: 1rem;
+    justify-content: center;
 
 }
 
@@ -30,38 +89,53 @@ main img {
     width: 120px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: .1rem;
     box-shadow: 0 0 30px gray;
+    margin-left: .5rem;
+    margin-right: 1.5rem;
+}
+
+main div ul {
+    padding: 1rem;
+
 }
 
 p {
-    padding: 10px;
+    padding: 1rem;
 }
 
 aside {
     position: relative;
-    width: 20em;
+    /* width: 20em; */
+    width: 230px;
     background-color: #DDEEDD;
+    grid-column: 1/2;
+    grid-row: 1/2;
     color: #123456;
     height: auto;
-    text-align: left;
+    text-align: bottom;
 
 }
 
 aside img {
-    float: left;
+    float: top;
     position: relative;
-    top: 10px;
+    top: 5px;
     width: 200px;
     height: auto;
-    padding: 5px;
+    padding: .5rem;
+
 }
 
 aside h2 {
     position: absolute;
-    top: 148px;
-    left: 28px;
+    top: 146px;
+    left: 34px;
     color: #666666;
+}
+
+aside p {
+    padding: 6px;
 }
 
 footer {
@@ -76,16 +150,24 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
+    margin-right: auto;
     background-color: #ddd;
     color: #000;
 }
 
+.indent {
+    padding-left: 2rem;
+}
+
 main div {
-    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    /* width: 800px; */
 }
 
 main div img {
-    position: absolute;
-    top: 6px;
-    left: 240px;
+
+    height: 100px;
+    width: auto;
 }

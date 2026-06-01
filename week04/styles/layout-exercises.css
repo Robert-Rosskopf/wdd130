@@ -22,20 +22,34 @@ div {
 }
 
 .flex {
+    display: flex;
+    flex: content;
     background-color: #aba;
     /* write declarations here */
-
+    /* place-items: center; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center;
+    align-self: center; */
 }
 
 .grid {
     background-color: #abb;
     /* enter declarations here */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* justify-self: center; */
 
 }
 
 .container2 {
     /* write declarations here */
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
 }
 
 .two {
@@ -45,12 +59,18 @@ div {
 
 .container3 {
     /* write declarations here */
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1/3;
 }
 
 .columns-3 {
     /* write declaration here */
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1/4;
 }
 
 .three {

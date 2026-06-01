@@ -23,7 +23,7 @@ div {
 
 .flex {
     background-color: #aba;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -51,7 +51,8 @@ div {
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: span 3;
+}
 
 .three {
     margin: .25rem;
