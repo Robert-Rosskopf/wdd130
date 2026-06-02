@@ -18,7 +18,14 @@
 header {
     --background-color: var(--accent1-color);
     color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr;
+    align-items: center;
 
+}
+
+header img {
+    color: gold;
 }
 
 body {
@@ -33,6 +40,18 @@ footer {
     margin: 0 auto;
 }
 
+.oooh-baby-regular {
+    font-family: "Oooh Baby", cursive;
+    font-weight: 600;
+    font-style: bold;
+}
+
+#logo {
+    font-size: 2.4rem;
+    color: darkblue;
+
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -41,7 +60,7 @@ h2 {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 17px;
     width: 96%;
     /* padding: 16px; */
     text-align: center;
@@ -55,20 +74,57 @@ p,
 section,
 article {
     /* margin: 16px; */
-    padding: 8px;
+    position: relative;
+    width: 480;
+    /* padding: 8px; */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    list-style: none;
+
+}
+
+.menu li {
+    flex: 1 1 auto;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    color: navy;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu a:hover {
+    color: tomato;
+    text-decoration: underline;
 }
 
 .hero article {
     position: absolute;
+    display: flex;
+    align-items: flex-start;
+
+    gap: 1rem;
+    padding: 1rem;
     background-color: #608074;
     color: #fff;
     top: 380px;
     left: 340px;
-    height: 100px;
+    height: 116px;
+    width: 500px;
 }
 
 .hero {
     position: relative;
+    padding-bottom: 2rem;
 }
 
 .hero img {
@@ -78,14 +134,15 @@ article {
 }
 
 .hero article img {
-    float: right;
+
     width: 125px;
 }
 
-.socialmedia a {
+.socialmedia img {
     text-decoration: none;
-    font-size: x-large;
     padding: 12px;
+    width: 3rem;
+    height: auto;
 }
 
 .subtitle {
@@ -96,4 +153,39 @@ article {
     color: #fff;
     text-align: center;
     opacity: 0.7;
+}
+
+#history {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: 1fr 80px 1fr;
+}
+
+#history img {
+    width: 300px;
+    height: auto;
+}
+
+#adventures {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+#adventures img {
+    height: 180px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
