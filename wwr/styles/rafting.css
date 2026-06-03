@@ -3,7 +3,7 @@
     --primary-color: #000;
     --secondary-color: #de493c;
     --accent1-color: #506490;
-    --accent2-color: d#daefd9;
+    --accent2-color: #daefd9;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--accent2-color);
+
 }
 
 header {
@@ -41,13 +41,13 @@ footer {
 }
 
 .oooh-baby-regular {
-    font-family: "Oooh Baby", cursive;
-    font-weight: 600;
-    font-style: bold;
+    font-family: "Segoe Print", "cursive";
+    font-weight: 500;
+
 }
 
 #logo {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     color: darkblue;
 
 }
@@ -61,7 +61,7 @@ h2 {
 h1 {
     position: absolute;
     top: 17px;
-    width: 96%;
+    width: 100%;
     /* padding: 16px; */
     text-align: center;
     opacity: 0.7;
@@ -75,7 +75,7 @@ section,
 article {
     /* margin: 16px; */
     position: relative;
-    width: 480;
+    width: 480px;
     /* padding: 8px; */
 }
 
@@ -102,24 +102,30 @@ article {
     font-size: 1.2rem;
 }
 
+.menu li a.active {
+    color: #fff;
+    background-color: #456792;
+}
+
 .menu a:hover {
-    color: tomato;
-    text-decoration: underline;
+    color: #fff;
+    background-color: #7597C2;
+    /* text-decoration: underline; */
 }
 
 .hero article {
     position: absolute;
     display: flex;
     align-items: flex-start;
-
+    opacity: 0.7;
     gap: 1rem;
     padding: 1rem;
-    background-color: #608074;
+    background-color: var(--accent1-color);
     color: #fff;
-    top: 380px;
-    left: 340px;
-    height: 116px;
-    width: 500px;
+    /* top: 346px; */
+    right: 18px;
+    width: 96%;
+    bottom: 46px;
 }
 
 .hero {
@@ -129,7 +135,7 @@ article {
 
 .hero img {
     display: block;
-    width: 96%;
+    width: 100%;
     height: auto;
 }
 
