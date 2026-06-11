@@ -55,9 +55,9 @@
   // disable copilot chat
   "chat.agent.enabled": false,
   "chat.disableAIFeatures": true,
-  "chat.commandCenter.enabled": false,
-  "inlineChat.accessibleDiffView": "off",
   "terminal.integrated.initialHint": false,
+
+  // Specll checker workds added to this workspace only
   "cSpell.words": [
     "socialmedia"
   ]
