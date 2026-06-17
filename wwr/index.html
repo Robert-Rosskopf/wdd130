@@ -54,50 +54,62 @@
 
         </div>
 
-        <div class="destination">
-            <h2 class="dest1">Destinations for adventure</h2>
-            <h4 class="title1">Westwater Canyon</h4>
-            <img class="img1" src="images/westwater-canyon2.webp" alt="Westwater Canyon">
-            <p class="p1"> Westwater canyon is a class 3 rapid on the Colorado River near Kanab,
-                Utah.</p>
-            <h4 class="title2">Moab Daily</h4>
-            <img class="img2" src="images/colorado-river.webp" alt="Moab Daily">
-            <p class="p2"> Moab Daily is a friendly class 2 rapid on the Colorado River near Kanab,
-                Utah. It is fairly mild, and suitable for children 7 and up.</p>
-        </div>
-
-
-        <form class="custom-form">
-
-            <label for="q1" id="box-1">Name:</label>
-            <input type="text" id="q1" name="q1">
-
-
-            <label for="q2" id="box-3">Email:</label>
-            <input type="text" id="q2" name="q2">
-
-
-            <label id="box-5" class="fix-width">Message Purpose</label>
-
-            <div class="radio-group" id="box-6">
-                <input type="radio" name="message_type" id="input1">
-                <label for="input1" class="fix-width">General Inquiry</label>
-                <input type="radio" name="message_type" id="input2">
-                <label for="input2" class="fix-width">Reservation Question</label>
-                <input type="radio" name="message_type" id="input3">
-                <label for="input3" class="fix-width">Website Suggestion</label>
-
+        <div class="explore">
+            <div class="destinations">
+                <h2>Destinations for adventure</h2>
+                <h4>Westwater Canyon</h4>
+                <img src="images/westwater-canyon2.webp" alt="Westwater Canyon">
+                <p> Westwater canyon is a class 3 rapid on the Colorado River near Kanab,
+                    Utah.</p>
+                <h4>Moab Daily</h4>
+                <img class="img2" src="images/colorado-river.webp" alt="Moab Daily">
+                <p> Moab Daily is a friendly class 2 rapid on the Colorado River near Kanab,
+                    Utah. It is fairly mild, and suitable for children 7 and up.</p>
             </div>
-            <label for="message" id="box-7">Message</label>
-            <textarea id="message" name="message">
 
-                </textarea>
-            <input type="checkbox" id="box-9" name="subscribe">
-            <label for="box-9" id="box-10">Please subscribe me to the monthly
-                newsletter!</label>
+            <div class="membership">
+                <h2 class="memb-title">Sign up for our Explorers club</h2>
+                <p class="memb-details">You will receive a monthly newsletter about upcoming events
+                    and past expeditions with special offers for adventure gear.
+                    If you are enthusiastic about our mission to bring people
+                    together for fun and outdoor experience, then you should also
+                    consider becoming a patron. A patron donates $900 a year, but
+                    receives deep discounts on trips and gear, and becomes part
+                    of our team, taking part in the planning of future events and
+                    giving additional support on expeditions. They also become our
+                    ambassadors, and can offer trip discounts to their friends and
+                    family.</p>
+                <form class="explorers-club">
+                    <label for="club" class="label1"> Join the Explorers Club</label>
+                    <input type="checkbox" id="club" name="club" class="input1">
+                    <label for="patron" class="label2"> Become a patron</label>
+                    <input type="checkbox" id="patron" name="patron" class="input2">
+                    <label for="message2" class="label3">Do you have any questions or
+                        concerns?</label>
+                    <textarea id="message2" name="message2" class="textarea3"></textarea>
 
-            <button type="submit" id="box-11">Send message</button>
-        </form>
+                    <label for="cust-fullname" class="label4">Name:</label>
+                    <input type="text" id="cust-fullname" name="fullname" class="input4">
+
+                    <label for="cust-email" class="label5">Email:</label>
+                    <input type="text" id="cust-email" name="email" class="input5">
+
+                    <button type="submit">Sign Up!</button>
+                </form>
+            </div>
+            <div class="upcoming-trips">
+                <h2>Upcoming trips</h2>
+                <p>We have 2 trips coming up in the next month, a four day trek down Desolation
+                    Canyon, Utah, and a 3 hour sprint down Clear Creek in Colorado. Food and
+                    camping gear will be supplied for the Desolation Canyon trip. We still have
+                    four openings available. Clear Creek is a class 3 or 4 rapid, and strong
+                    paddling skills are necessary. This is for seasoned rafters only. We have
+                    space for six more individuals. This includes transportation from Kanab,
+                    Utah.
+                </p>
+                <h4>Desolation Canyon</h4>
+                <img src="images/desolation-canyon2.webp" alt="Desolation Canyon, Utah">
+            </div>
 
 
     </main>
