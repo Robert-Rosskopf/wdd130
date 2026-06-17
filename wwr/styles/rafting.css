@@ -546,7 +546,7 @@ button {
     justify-self: center;
 }
 
-.destinations h4 {
+.destinations h3 {
 
     align-items: end;
     padding: 2px;
@@ -686,7 +686,7 @@ input {
 }
 
 .upcoming-trips h2,
-h4 {
+h3 {
     align-items: center;
     justify-self: center;
 
