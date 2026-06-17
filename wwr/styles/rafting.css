@@ -711,12 +711,8 @@ h3 {
 
 }
 
-.calendar-item > * {
-    background-color: #fff;
-}
-
 .trip-title {
-    display: block;
+
     grid-column: 2/3;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
