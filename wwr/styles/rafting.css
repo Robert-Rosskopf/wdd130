@@ -712,13 +712,18 @@ h3 {
 }
 
 .trip-title {
-
+    border: 0;
+    border-style: none;
+    border-width: 0;
     grid-column: 2/3;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .trip-date {
+    border: 0;
+    border-style: none;
+    border-width: 0;
     grid-column: 1/2;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
